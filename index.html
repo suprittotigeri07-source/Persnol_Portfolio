@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suprit Totiger — Full Stack Engineer & AI Engineer</title>
+  <meta name="description" content="Portfolio of Suprit Mahantesh Totiger — Full Stack Engineer & AI Engineer building intelligent, scalable digital experiences with Python, React, FastAPI, and AI/ML." />
+  <meta name="theme-color" content="#C0612B" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ PRELOADER ═══ -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <div class="preloader__logo">ST</div>
+      <div class="preloader__tagline">Full Stack & AI Engineer</div>
+      <div class="preloader__bar"><div class="preloader__bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ═══ DARK ELEGANT NAVBAR ═══ -->
+  <header id="navbar" class="navbar">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="Go to top">
+        <span class="nav-logo__mark">ST</span>
+        <span class="nav-logo__text">Suprit Totiger</span>
+      </a>
+      <button class="nav-burger" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-links" role="list">
+        <li><a href="#about" class="nav-menu__link" data-section="about">About</a></li>
+        <li><a href="#experience" class="nav-menu__link" data-section="experience">Experience</a></li>
+        <li><a href="#projects" class="nav-menu__link" data-section="projects">Projects</a></li>
+        <li><a href="#github" class="nav-menu__link" data-section="github">GitHub</a></li>
+        <li><a href="#contact" class="nav-menu__link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══ HERO — Scroll-Driven Canvas Animation ═══ -->
+    <section id="hero" class="hero-scene">
+      <div class="hero-scene__sticky">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-scene__overlay">
+          <p class="hero-scene__greeting anim-word">Hi, I'm</p>
+          <h1 class="hero-scene__title">
+            <span class="anim-word">Suprit</span>
+            <span class="anim-word">Totiger</span>
+          </h1>
+          <p class="hero-scene__subtitle">
+            <span class="anim-word">Full&nbsp;Stack</span>
+            <span class="anim-word">Engineer</span>
+            <span class="anim-word">&amp;</span>
+            <span class="anim-word">AI</span>
+            <span class="anim-word">Engineer</span>
+          </p>
+          <p class="hero-scene__desc anim-word">I build intelligent, scalable web applications powered by AI/ML — from demand forecasting to multi-agent recruitment platforms.</p>
+          <div class="hero-scene__ctas" id="hero-ctas">
+            <a href="#projects" class="btn btn--glow magnetic-btn"><span>View My Work</span></a>
+            <a href="#contact" class="btn btn--ghost magnetic-btn"><span>Get In Touch</span></a>
+          </div>
+        </div>
+        <div class="hero-scene__scroll-hint" id="scroll-hint">
+          <div class="scroll-hint__mouse"><div class="scroll-hint__dot"></div></div>
+          <span>Scroll to explore</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about" class="section section--editorial">
+      <div class="container">
+        <div class="section-header reveal-group">
+          <span class="section-label reveal-item">About Me</span>
+          <h2 class="section-title reveal-item">Engineering intelligent<br>digital experiences</h2>
+        </div>
+        <div class="editorial-grid">
+          <div class="editorial-grid__text reveal-group">
+            <p class="reveal-item">Fresher Software Engineer skilled in Full Stack Development and AI/ML, with experience building web applications and AI-powered projects using Python, Java, React, FastAPI, SQL, and machine learning tools.</p>
+            <p class="reveal-item">I specialize in building end-to-end intelligent systems — from demand forecasting models with XGBoost and Prophet to multi-agent AI recruitment platforms and code exploration tools powered by LLMs, embeddings, and semantic search.</p>
+            <p class="reveal-item">My approach combines strong problem-solving skills with hands-on project experience, collaborating across Product, QA, Backend, and DevOps teams to deliver enterprise-scale implementations following Agile methodologies.</p>
+          </div>
+          <div class="editorial-grid__skills reveal-group">
+            <h3 class="skills-heading reveal-item">Core Technical Skills</h3>
+            <div class="skill-group reveal-item"><h4>Programming</h4><div class="tags"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript</span></div></div>
+            <div class="skill-group reveal-item"><h4>AI / ML</h4><div class="tags"><span class="tag">Machine Learning</span><span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Feature Engineering</span></div></div>
+            <div class="skill-group reveal-item"><h4>Generative AI</h4><div class="tags"><span class="tag">LLMs</span><span class="tag">Prompt Engineering</span><span class="tag">AI Agents</span><span class="tag">RAG</span><span class="tag">Embeddings</span><span class="tag">Semantic Search</span><span class="tag">Vector Search</span></div></div>
+            <div class="skill-group reveal-item"><h4>Frontend</h4><div class="tags"><span class="tag">React.js</span><span class="tag">Next.js</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Vite</span><span class="tag">Streamlit</span></div></div>
+            <div class="skill-group reveal-item"><h4>Backend & Databases</h4><div class="tags"><span class="tag">FastAPI</span><span class="tag">REST APIs</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">Oracle SQL</span><span class="tag">SQLite</span></div></div>
+            <div class="skill-group reveal-item"><h4>Tools & DevOps</h4><div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Docker</span><span class="tag">VS Code</span><span class="tag">Jupyter Notebook</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ EXPERIENCE ═══ -->
+    <section id="experience" class="section section--dark">
+      <div class="container">
+        <div class="section-header reveal-group">
+          <span class="section-label reveal-item">Career</span>
+          <h2 class="section-title reveal-item">Professional Experience</h2>
+        </div>
+        <div class="timeline reveal-group">
+          <article class="timeline-card reveal-item">
+            <div class="timeline-card__bar"></div>
+            <div class="timeline-card__head"><div><h3>Data Science Trainee</h3><p class="timeline-card__company">PySpider</p></div><span class="timeline-card__date">May 2026 – Aug 2026</span></div>
+            <ul class="timeline-card__list">
+              <li>Completed hands-on training in Python, SQL, Excel, and Data Science fundamentals.</li>
+              <li>Developed Python programs for data cleaning, analysis, and problem-solving using Pandas and NumPy.</li>
+              <li>Worked with SQL to query, filter, join, and analyze structured datasets.</li>
+              <li>Practiced machine learning concepts using Scikit-learn, including data preprocessing, model training, and evaluation.</li>
+            </ul>
+            <div class="timeline-card__loc"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Bengaluru, Karnataka</div>
+          </article>
+          <article class="timeline-card reveal-item">
+            <div class="timeline-card__bar"></div>
+            <div class="timeline-card__head"><div><h3>Software Trainee / Application Support Intern</h3><p class="timeline-card__company">Vstand4U Solution</p></div><span class="timeline-card__date">Feb 2025 – Aug 2025</span></div>
+            <ul class="timeline-card__list">
+              <li>Supported application development, testing, debugging, and issue resolution across software applications.</li>
+              <li>Identified and tracked 20+ software defects, collaborating on fixes to improve application stability and reliability.</li>
+              <li>Assisted in troubleshooting application issues and reduced recurring downtime through systematic debugging.</li>
+              <li>Performed functional testing and validated application fixes before deployment.</li>
+            </ul>
+            <div class="timeline-card__loc"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>India</div>
+          </article>
+        </div>
+
+        <!-- Education -->
+        <div class="section-header reveal-group" style="margin-top:100px">
+          <span class="section-label reveal-item">Education</span>
+          <h2 class="section-title reveal-item">Academic Background</h2>
+        </div>
+        <div class="timeline reveal-group">
+          <article class="timeline-card reveal-item"><div class="timeline-card__bar"></div><div class="timeline-card__head"><div><h3>B.E., Electronics and Communication Engineering</h3><p class="timeline-card__company">Visvesvaraya Technological University, Belgaum</p></div><span class="timeline-card__date">2021 – 2025</span></div></article>
+          <article class="timeline-card reveal-item"><div class="timeline-card__bar"></div><div class="timeline-card__head"><div><h3>Diploma, Computer Science and Engineering</h3><p class="timeline-card__company">C.B.Kore Polytechnic College, Chikkodi</p></div><span class="timeline-card__date">2019 – 2021</span></div></article>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section-header reveal-group" style="margin-top:100px">
+          <span class="section-label reveal-item">Certifications</span>
+          <h2 class="section-title reveal-item">Professional Certifications</h2>
+        </div>
+        <div class="cert-row reveal-group">
+          <div class="cert reveal-item"><div class="cert__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div><h4>Java Full Stack Development</h4><p>Vstand4U Solution</p></div>
+          <div class="cert reveal-item"><div class="cert__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div><h4>Data Science with Gen AI</h4><p>PySpider</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PROJECTS ═══ -->
+    <section id="projects" class="section section--editorial">
+      <div class="container">
+        <div class="section-header reveal-group">
+          <span class="section-label reveal-item">Portfolio</span>
+          <h2 class="section-title reveal-item">Enterprise Project Portfolio</h2>
+        </div>
+        <div class="projects-filters reveal-group" role="tablist" aria-label="Filter projects by category">
+          <button class="filter-btn active reveal-item" role="tab" aria-selected="true" data-filter="all">All</button>
+          <button class="filter-btn reveal-item" role="tab" aria-selected="false" data-filter="ai-ml">AI / ML</button>
+          <button class="filter-btn reveal-item" role="tab" aria-selected="false" data-filter="genai">Generative AI</button>
+          <button class="filter-btn reveal-item" role="tab" aria-selected="false" data-filter="fullstack">Full Stack</button>
+        </div>
+        <div class="projects-grid">
+          <!-- RestockAI -->
+          <article class="pcard reveal-item" data-category="ai-ml">
+            <div class="pcard__visual" style="--g:linear-gradient(135deg,#C0612B,#1B3A5C)"><span class="pcard__emoji">📊</span>
+              <div class="pcard__hover-links">
+                <a href="https://restock-ai-six.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="View RestockAI live"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Live</a>
+                <a href="https://github.com/suprittotigeri07-source" target="_blank" rel="noopener noreferrer" aria-label="View RestockAI code"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+              </div>
+            </div>
+            <div class="pcard__body"><div class="pcard__domain">AI/ML — Retail & Inventory</div><h3>RestockAI</h3><p>AI-powered retail inventory platform that predicts product demand, optimizes stock levels, and makes data-driven replenishment decisions using Prophet and XGBoost.</p><div class="pcard__tags"><span>Python</span><span>FastAPI</span><span>React.js</span><span>XGBoost</span><span>Prophet</span><span>Claude AI</span><span>Docker</span></div></div>
+          </article>
+          <!-- HireXpert -->
+          <article class="pcard reveal-item" data-category="genai">
+            <div class="pcard__visual" style="--g:linear-gradient(135deg,#1B3A5C,#C0612B)"><span class="pcard__emoji">🤖</span>
+              <div class="pcard__hover-links">
+                <a href="https://github.com/suprittotigeri07-source/HireXpert" target="_blank" rel="noopener noreferrer" aria-label="View HireXpert code"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+              </div>
+            </div>
+            <div class="pcard__body"><div class="pcard__domain">AI — Recruitment / HR Tech</div><h3>HireXpert</h3><p>Multi-Agent AI recruitment platform that automates job description analysis, resume matching, candidate evaluation, and shortlisting with configurable criteria.</p><div class="pcard__tags"><span>React.js</span><span>Next.js</span><span>Prisma</span><span>AI Agents</span><span>LLMs</span><span>REST APIs</span></div></div>
+          </article>
+          <!-- Code Sherpa -->
+          <article class="pcard reveal-item" data-category="genai">
+            <div class="pcard__visual" style="--g:linear-gradient(135deg,#0D0D0D,#1B3A5C 60%,#C0612B)"><span class="pcard__emoji">🧭</span>
+              <div class="pcard__hover-links">
+                <a href="https://github.com/suprittotigeri07-source/Code-shepra" target="_blank" rel="noopener noreferrer" aria-label="View Code Sherpa code"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+              </div>
+            </div>
+            <div class="pcard__body"><div class="pcard__domain">Generative AI — Developer Tools</div><h3>Code Sherpa</h3><p>AI-powered code exploration platform using AST-based parsing, hybrid semantic + vector search, and LLM agents with conversational memory for intelligent code assistance.</p><div class="pcard__tags"><span>Python</span><span>FastAPI</span><span>React.js</span><span>Embeddings</span><span>Vector Search</span><span>LLMs</span></div></div>
+          </article>
+          <!-- Live AI Assistant -->
+          <article class="pcard reveal-item" data-category="genai">
+            <div class="pcard__visual" style="--g:linear-gradient(135deg,#C0612B,#0D0D0D)"><span class="pcard__emoji">⚡</span>
+              <div class="pcard__hover-links">
+                <a href="https://github.com/suprittotigeri07-source/Live-Ai-Assistent" target="_blank" rel="noopener noreferrer" aria-label="View Live AI Assistant code"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+              </div>
+            </div>
+            <div class="pcard__body"><div class="pcard__domain">Generative AI — LLM Applications</div><h3>Live AI Assistant</h3><p>Real-time AI assistant combining local LLM inference via Ollama and Qwen2.5-Coder with web search, modular tool registry, and conversational memory.</p><div class="pcard__tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>Ollama</span><span>Qwen2.5</span><span>Tavily</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ GITHUB ═══ -->
+    <section id="github" class="section section--dark">
+      <div class="container">
+        <div class="section-header reveal-group">
+          <span class="section-label reveal-item">Open Source</span>
+          <h2 class="section-title reveal-item">GitHub Activity</h2>
+        </div>
+        <div class="gh-content reveal-group">
+          <div class="gh-stats">
+            <div class="gh-stat reveal-item"><span class="gh-stat__num" data-target="0" id="gh-repos">0</span><span class="gh-stat__label">Repositories</span></div>
+            <div class="gh-stat reveal-item"><span class="gh-stat__num" data-target="0" id="gh-followers">0</span><span class="gh-stat__label">Followers</span></div>
+            <div class="gh-stat reveal-item"><span class="gh-stat__num" data-target="0" id="gh-following">0</span><span class="gh-stat__label">Following</span></div>
+            <div class="gh-stat reveal-item"><span class="gh-stat__num" data-target="0" id="gh-gists">0</span><span class="gh-stat__label">Gists</span></div>
+          </div>
+          <div class="gh-langs reveal-item"><h3>Top Languages</h3><div id="gh-languages"></div></div>
+          <div class="gh-cta reveal-item">
+            <a href="https://github.com/suprittotigeri07-source" class="btn btn--glow magnetic-btn" target="_blank" rel="noopener noreferrer" id="gh-profile-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <span>View GitHub Profile</span>
+              <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact" class="section section--editorial">
+      <div class="container">
+        <div class="section-header reveal-group">
+          <span class="section-label reveal-item">Get In Touch</span>
+          <h2 class="section-title reveal-item">Let's build something<br>amazing together</h2>
+          <p class="section-desc reveal-item">Whether you have a project idea, a collaboration opportunity, or just want to connect — I'd love to hear from you.</p>
+        </div>
+        <div class="contact-grid reveal-group">
+          <a href="mailto:suprittotiger05@gmail.com" class="contact-card reveal-item" id="contact-email"><div class="contact-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><span class="contact-card__label">suprittotiger05@gmail.com</span><span class="contact-card__hint">Send an email</span></a>
+          <a href="tel:+918217589740" class="contact-card reveal-item" id="contact-phone"><div class="contact-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><span class="contact-card__label">+91 8217589740</span><span class="contact-card__hint">Give me a call</span></a>
+          <a href="https://www.linkedin.com/in/suprit-totiger-96a723315/" class="contact-card reveal-item" target="_blank" rel="noopener noreferrer" id="contact-linkedin"><div class="contact-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div><span class="contact-card__label">LinkedIn</span><span class="contact-card__hint">Connect with me</span></a>
+          <button class="contact-card contact-card--copy reveal-item" id="copy-email" data-email="suprittotiger05@gmail.com" aria-label="Copy email address"><div class="contact-card__icon"><svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><span class="contact-card__label copy-label">Copy Email</span><span class="contact-card__hint">To clipboard</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer reveal-group">
+    <div class="container"><div class="footer__inner">
+      <p class="footer__copy reveal-item">&copy; 2026 <strong>Suprit Mahantesh Totiger</strong>. All rights reserved.</p>
+      <p class="footer__note reveal-item">Designed &amp; built with passion in Bengaluru, India.</p>
+    </div></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
